@@ -38,7 +38,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Running Unit Tests...'
-                sleep 10
+                sleep 3
                 error('Tests failed!')
             }
         }
